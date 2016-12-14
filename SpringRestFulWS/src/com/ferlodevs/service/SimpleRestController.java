@@ -30,7 +30,7 @@ public class SimpleRestController {
 				if (logger.isDebugEnabled())
 					logger.debug("in version 1");
 				// TODO: add your business logic here
-				response = "Response from Spring RESTful Webservice : "+ request;
+				response = "SpringRestFulWS: Response from Spring RESTful Webservice : "+ request;
 
 				break;
 			default:
@@ -63,7 +63,7 @@ public class SimpleRestController {
 				if (logger.isDebugEnabled())
 					logger.debug("in version 1");
 				// TODO: add your business logic here
-				response = "Response from Spring RESTful Webservice : "+ request;
+				response = "SpringRestFulWS: Response from Spring RESTful Webservice : "+ request;
 
 				break;
 			default:
@@ -96,7 +96,7 @@ public class SimpleRestController {
 				if (logger.isDebugEnabled())
 					logger.debug("in version 1");
 				// TODO: add your business logic here
-				response = "Response from Spring RESTful Webservice : "+ request;
+				response = "SpringRestFulWS: Response from Spring RESTful Webservice : "+ request;
 
 				break;
 			default:
