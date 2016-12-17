@@ -36,6 +36,7 @@ public class SimpleRestController {
 			default:
 				throw new Exception("Unsupported version: " + version);
 			}
+			
 		} catch (Exception e) {
 			response = e.getMessage().toString();
 		}
