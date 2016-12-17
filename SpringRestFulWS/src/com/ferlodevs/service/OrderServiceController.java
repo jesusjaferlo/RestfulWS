@@ -9,4 +9,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderServiceController {
 	// Logger instance
 		private static final Logger logger = Logger.getLogger(SimpleRestController.class);
+		
 }
